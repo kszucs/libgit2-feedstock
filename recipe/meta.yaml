@@ -30,10 +30,12 @@ requirements:
     - openssl 1.0.*   # [not win]
     - libiconv        # [osx]
     - curl
+    - libssh2
   run:
     - openssl 1.0.*   # [not win]
     - libiconv        # [osx]
     - curl
+    - libssh2
 
 test:
   requires:
