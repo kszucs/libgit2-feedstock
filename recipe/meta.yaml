@@ -31,6 +31,7 @@ requirements:
     - libiconv        # [osx]
     - curl
     - libssh2
+    - pkg-config      # [not win]
   run:
     - openssl 1.0.*   # [not win]
     - libiconv        # [osx]
