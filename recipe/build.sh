@@ -2,7 +2,7 @@
 
 echo $PREFIX
 
-export LIBSSH2_LIBRARIES=libssh2
+export LIBSSH2_LIBRARIES=ssh2
 export LIBSSH2_LIBRARY_DIRS=$PREFIX/lib
 
 mkdir build && cd build
