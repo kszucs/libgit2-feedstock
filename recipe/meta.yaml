@@ -30,6 +30,7 @@ requirements:
     - msinttypes      # [win]
     - openssl 1.0.*   # [not win]
     - libiconv        # [osx]
+    - openssl 1.0.*   # [not win]
     - curl
     - libssh2
     - pkg-config      # [not win]
